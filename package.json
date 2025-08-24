@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start",
     "lint": "eslint"
   },
